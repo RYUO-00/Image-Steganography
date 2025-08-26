@@ -4,6 +4,8 @@
 
 A secure image steganography application with encryption capabilities for hiding and extracting messages in images. This tool uses LSB (Least Significant Bit) steganography combined with Fernet symmetric encryption to provide a secure way to hide sensitive information within image files.
 
+![Image Steganography Tool - Main Interface](screenshots/main_interface.png)
+
 ## Features
 
 - **Message Hiding**: Embed encrypted messages within PNG or BMP image files
@@ -57,6 +59,28 @@ python image_steganography.py
 1. Click "Browse" to select an image containing a hidden message
 2. Click "Extract Message" and enter the password when prompted
 3. The hidden message will appear in the text area
+
+## Screenshots
+
+### Main Interface
+The main interface provides an intuitive GUI for all steganography operations:
+
+![Main Interface](screenshots/main_interface.png)
+
+### Password Protection Dialog
+Secure your hidden messages with password-based encryption:
+
+![Password Dialog](screenshots/password_dialog.png)
+
+### Message Hiding Process
+Hide your secret messages within image files:
+
+![Message Hiding](screenshots/message_hiding.png)
+
+### Message Extraction
+Extract and decrypt hidden messages from images:
+
+![Message Extraction](screenshots/message_extraction.png)
 
 ## Security Considerations
 
